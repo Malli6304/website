@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9878e5c802.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="animation">Full Stack Developer</p>
+                <h3>Hi, I'm <br><span>Kuruva Mallikarjuna</span><br> From Andhra Pradesh</h3>
+            </div>
+        </div>
+    </div>
+<!-- -------------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <image src="image/user.png"></image>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate [Industry] enthusiast eager to contribute my [Relevant Skills] to a
+                        collaborative team. Committed to learning and growth while making a positive
+                        impact on projects. Seeking opportunities to develop professionally in a dynamic
+                        environment</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java</span> <p>Aspiring Java developer with solid foundational knowledge seeking opportunities to apply 
+                                    Java programming skills in real-world projects.</p></li>
+                                <li><span>SpringBoot</span><p>Motivated entry-level developer with a solid grasp of Java and Spring Boot, eager to contribute to dynamic projects and further develop skills in software development.</p></li>
+                                <li><span>SQL</span><P>Java developer proficient in SQL, eager to apply database querying skills in real-world projects.</P></li>
+                                <li><span>HTML/CSS</span><p>Skilled in HTML and CSS, ready to craft visually appealing and responsive web designs</p></li>
+                                 
+                                <li><span>Java Script</span><p>Proficient in JavaScript, capable of creating interactive and dynamic web applications</p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Full Stack Developer Training at Lara Technologies</li>
+                                <li><span>2019-2023</span><br>B.Tech From RGM Nandyal</li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------services---------------- -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="service-list">
+        <div>
+          <i class="fa-solid fa-code"></i>"
+            <h2>LMS Project</h2>
+            <p>Developed a comprehensive Learning
+                Management System (LMS) using Java full
+                stack technologies to streamline course
+                management, assignment submission, and
+                grading processes.Designed and implemented a user-friendly
+                frontend using[FrontendFramework], enhancing
+                user experience and navigation</p>
+                <a href="#">Learn more</a>
+         </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>Iot Based Intelligent Gas Lekage
+                Detector Using Arduino</h2>
+            <p>IoT gas leakage detector utilizing
+                Arduino for real-time detection
+                and remote alerts</p>
+                <a href="#">Learn more</a>
+         </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Mini Hacksaw Powered By Beam Engine</h2>
+            <p>A compact cutting tool utilizing the
+                motion of a beam engine to drive
+                the hacksaw blade</p>
+                <a href="#">Learn more</a>
+         </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------protofolio------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list"> 
+        <div class="work">
+            <img src="image/work-1.png">
+               <div class="layer">
+                <h3>SocialMediaApp</h3>
+                <P>The app connects you to the talented people 
+                    around the world. download it from play store.</P>  
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+        </div>
+        <div class="work">
+            <img src="image/work-2.png">
+            <div class="layer">
+                <h3>MusicApp</h3>
+                <P>The app connects you to the talented people 
+                    around the world. download it from play store.</P>  
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+        <div class="work">
+            <img src="image/work-3.png">
+             <div class="layer">
+                <h3>OnlineShoppingApp</h3>
+                <P>The app connects you to the talented people 
+                    around the world. download it from play store.
+                </P>  
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div> 
+         </div> 
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------------------contact----------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>6304715875</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/k-mallikarjuna-733483282/"><i class="fa-brands fa-square-linkedin"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="email" name="Email" placeholder="Enter Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Meaasge"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>copyright @ malli. made with by easy<i class="fa-solid fa-heart"></i></P>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+       for(tablink of tablinks)
+       {
+        tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents)
+       {
+        tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+  function openmenu()
+  {
+    sidemenu.style.right = "0";
+
+  }
+  function closemenu()
+  {
+    sidemenu.style.right = "-200px";
+
+  }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxFk88pzul4A8HjAy2gAUQLNhtE6S0g2foLXhRmltHYRaxtz-s7WQ3RGLJg4cI7_L90/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
